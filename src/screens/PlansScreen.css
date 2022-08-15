@@ -1,0 +1,22 @@
+.plansScreen__info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 10px;
+  opacity: 0.8;
+}
+
+.plansScreen__info > button {
+  cursor: pointer;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #e50914;
+  font-size: 1rem;
+  border: none;
+  font-weight: 600;
+  height: 50%;
+  border-radius: 2%;
+}
+.plansScreen__info:hover {
+  opacity: 1;
+}
